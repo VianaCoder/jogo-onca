@@ -1,0 +1,75 @@
+<head>
+    <meta charset="UTF-8" /> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="game.js"></script>
+    <script src="sweetalert2/dist/sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="sweetalert2/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body  leftmargin="0" topmargin="0">
+    <div align="center">
+    <table>
+      <button class="#b00" onclick="initiate()"> APERTE PARA INICIAR</button>
+      <tr>
+        <td>
+        <section>
+          <svg width="1200" height="900" fill="rgb(248, 248, 248)">
+            <defs>
+              <filter id = "onca-filter" x = "0%" y = "0%" width = "100%" height = "100%">
+                <feImage xlink:href = "onca-peca.png"/>
+              </filter>
+              <filter id = "dog-filter" x = "0%" y = "0%" width = "100%" height = "100%">
+                <feImage xlink:href = "dog-peca.png"/>
+              </filter>
+            </defs>
+            <rect width="1200" height="900"/>
+            <rect x="150" y="150" id="gameTable" width="600" height="600"/>
+            <polygon id="gameTable" points="150,450 450,150 1050,750 1050,150 450,750 150,450"/>
+            <line id="tableline" x1="150" y1="300" x2="750" y2="300"/>
+            <line id="tableline" x1="150" y1="450" x2="1050" y2="450"/>
+            <line id="tableline" x1="150" y1="600" x2="750" y2="600"/>
+            <line id="tableline" x1="300" y1="150" x2="300" y2="750"/>
+            <line id="tableline" x1="450" y1="150" x2="450" y2="750"/>
+            <line id="tableline" x1="600" y1="150" x2="600" y2="750"/>
+            <line id="tableline" x1="150" y1="150" x2="750" y2="750"/>
+            <line id="tableline" x1="150" y1="750" x2="750" y2="150"/>
+            <line id="tableline" x1="900" y1="300" x2="900" y2="600"/>            
+            <circle class="point" id="c00" cx="150" cy="750" r="20"/>
+            <circle class="point" id="c01" cx="150" cy="600" r="20"/>
+            <circle class="point" id="c02" cx="150" cy="450" r="20"/>
+            <circle class="point" id="c03" cx="150" cy="300" r="20"/>
+            <circle class="point" id="c04" cx="150" cy="150" r="20"/>
+            <circle class="point" id="c05" cx="300" cy="750" r="20"/>
+            <circle class="point" id="c06" cx="300" cy="600" r="20"/>
+            <circle class="point" id="c07" cx="300" cy="450" r="20"/>
+            <circle class="point" id="c08" cx="300" cy="300" r="20"/>
+            <circle class="point" id="c09" cx="300" cy="150" r="20"/>
+            <circle class="point" id="c10" cx="450" cy="750" r="20"/>
+            <circle class="point" id="c11" cx="450" cy="600" r="20"/>
+            <circle class="point" id="c12" cx="450" cy="450" r="20"/>
+            <circle class="point" id="c13" cx="450" cy="300" r="20"/>
+            <circle class="point" id="c14" cx="450" cy="150" r="20"/>
+            <circle class="point" id="c15" cx="600" cy="750" r="20"/>
+            <circle class="point" id="c16" cx="600" cy="600" r="20"/>
+            <circle class="point" id="c17" cx="600" cy="450" r="20"/>
+            <circle class="point" id="c18" cx="600" cy="300" r="20"/>
+            <circle class="point" id="c19" cx="600" cy="150" r="20"/>
+            <circle class="point" id="c20" cx="750" cy="750" r="20"/>
+            <circle class="point" id="c21" cx="750" cy="600" r="20"/>
+            <circle class="point" id="c22" cx="750" cy="450" r="20"/>
+            <circle class="point" id="c23" cx="750" cy="300" r="20"/>
+            <circle class="point" id="c24" cx="750" cy="150" r="20"/>
+            <circle class="point" id="c25" cx="900" cy="600" r="20"/>
+            <circle class="point" id="c26" cx="900" cy="450" r="20"/>
+            <circle class="point" id="c27" cx="900"  cy="300" r="20"/>
+            <circle class="point" id="c28" cx="1050" cy="750" r="20"/>
+            <circle class="point" id="c29" cx="1050" cy="450" r="20"/>
+            <circle class="point" id="c30" cx="1050" cy="150" r="20"/> 
+          </svg>
+        </section>
+        </td>
+      </tr>
+    </table>
+    </div>
+    </body>
+    </html>

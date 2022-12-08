@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(71, 120, 66);
+}
+
+div {
+    margin-top: 80px;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 120px;
+}
+
+img {
+    width: 600px;
+    height: 500px;
+}
+
+button{
+    border-radius: 4px;
+    background-color: #cdcdcd;
+    border: none;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: bolder;
+    font-size: 35px;
+    padding: 20px;
+    width: 400px;
+    height: 150px;
+    cursor: pointer;
+    margin-top: 80px;
+    border-color: black;
+    border-radius: 25%;
+    margin-bottom: 150px;
+  }
